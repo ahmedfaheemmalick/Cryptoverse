@@ -21,7 +21,7 @@ const Home = () => {
                     <h1>{errorCoins.message}</h1>
                 </div>
             ) : null}
-            <Link to="/coins" className="my-0 mx-auto w-121 block py-2 px-4 text-sm font-medium text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-blue-30">
+            <Link to="/coins" className="my-0 mx-auto w-121 block py-2 px-4 text-sm font-medium text-center text-black bg-gray-400 rounded-lg border border-gray-300 hover:bg-gray-500 focus:ring-4 focus:ring-blue-30">
                 See All Coins
             </Link>
             <h1 className='text-3xl	text-center my-6'>Top 10 Cryptocurrencies News.</h1>
@@ -34,7 +34,7 @@ const Home = () => {
                     <h1>{errorNews.message}</h1>
                 </div>
             ) : null}
-            <Link to="/news" className="my-0 mx-auto w-121 block py-2 px-4 text-sm font-medium text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-blue-30">
+            <Link to="/news" className="my-0 mx-auto w-121 block py-2 px-4 text-sm font-medium text-center text-black bg-gray-400 rounded-lg border border-gray-300 hover:bg-gray-500 focus:ring-4 focus:ring-blue-30">
                 See All News
             </Link>
         </>
